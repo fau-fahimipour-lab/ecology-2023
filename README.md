@@ -1,2 +1,2 @@
-# ecology-2023
-A course page for Principles in Ecology | Fall 2023
+# Principles in Ecology | PCB 4043
+Welcome to the Supplementary Course Page for Principles in Ecology, PCB 4043, Fall 2023.
