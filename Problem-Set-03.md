@@ -31,14 +31,14 @@ As we observe in the above comparison of *parameter* and *variable* units on bot
 So we can learn some things right away by just thinking about these equations and saying (out loud with words) what they represent. Let's keep going. As we discussed in class, the parameter $b$ is often called the **conversion efficiency** and must be a value between 0 and 1. So if I eat a cheesburger and my body assimilated ten percent of those calories to turn into new cells, then my $b = 0.1$. As we can see above, whatever is taken from the prey population by the term $−~a N P$ is added to the predator population by $+~b a N P$. If $b$ varies between 0 and 1, we can see that not all biomass taken from the prey population becomes new predator biomass, and this is because much of the potential energy is lost during transfer as heat. In fact, we often assume that $b$ is pretty close to 0 (say 3 percent, 0.03) in most predator-prey interactions, though this number can vary substantially. It is also one of the primary reasons we are more likely to run into herbivores when out for a hike than we are to run into predators!
 
 ### Question 2.1
-Let’s assume the 'prey' that we are considering is a plant species, and the 'predator' is an herbivore. Would $b$ be expected to by higher or lower relative to $b$ for a carnivore eating an herbivore? Why?
+Let’s assume the 'prey' that we are considering is a plant species, and the 'predator' is an herbivore. Would $b$ be expected to be higher or lower relative to $b$ for a carnivore eating an herbivore? Why?
 
 ## Dynamics of the Lotka-Volterra model
 Now that we have a better understanding of the Lotka-Volterra system and the parameters involved, let’s deploy the same tools that we used to investigate the LV competition system to understand the dynamics here. First, recall the steps we went through in class find the **isoclines** that describe the long-term dynamics:
 
 1. Set the $\frac{d}{dt}$ equations to 0 to solve for the steady state. These will be the equations for the isoclines of the system. Here we will be finding the prey isocline (where $\frac{dN}{dt} = 0$) and the predator isocline (where $\frac{dP}{dt} = 0$).
 2. Find the x- and y-intercepts of the prey and predator isoclines so that we can plot them in the phase space where the density of prey, $N$, is on the x-axis and the density of predators, $P$, is on the y-axis.
-3. Determine the flow in the 2-dimensional space by solving for prey growth ($\frac{dN}{dt} > 0$), prey decline ($\frac{dN}{dt} <> 0$), predator growth ($\frac{dP}{dt} > 0$), and predator decline ($\frac{dP}{dt} < 0$).
+3. Determine the flow in the 2-dimensional space by solving for prey growth ($\frac{dN}{dt} > 0$), prey decline ($\frac{dN}{dt} < 0$), predator growth ($\frac{dP}{dt} > 0$), and predator decline ($\frac{dP}{dt} < 0$).
 4. From the flow along the $N$ and $P$ axes, find the composite flow (*i.e.*, flow along the diagonal directions). The composite flow will tell us how the population densities of prey $N$ and predator $P$ change over time, as well as the final state of the system.
 
 You should refer to lecture notes and the relevant book section in Ch. 12 to review this if you need.
